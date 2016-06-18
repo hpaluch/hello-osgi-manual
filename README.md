@@ -12,7 +12,16 @@ for such example.
 
 Eclipse STS 3.7.3 is strongly recommended - from https://spring.io/tools/sts
 
-* TODO: import project to eclipse
+* In Eclipse invoke Context menu anywhere in Project Explorer
+  and choose Import ... -> Maven -> Checkout Maven projects from SCM
+
+  * Select `git` as SCM type
+    and Fill `https://github.com/hpaluch/hello-osgi-manual.git` in
+    SCM URL and click on Next
+
+  * Select suitable Workspace and click on Next
+
+  * Select your pom.xml in Projects: listbox and click on Finish
 
 * Build jar - for example invoking Run As -> Maven install ...
 
